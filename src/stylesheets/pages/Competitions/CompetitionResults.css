@@ -1,0 +1,91 @@
+.competitionResults {
+  padding-bottom: 64px;
+}
+
+.competitionResults .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 64px 0 40px;
+}
+
+.competitionResults .header span {
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8D8B94;
+  letter-spacing: 0.35px;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+
+.competitionResultsTable {
+  width: 100%;
+  position: relative;
+  overflow-X: scroll;
+  overflow-Y: hidden;
+}
+
+.competitionResultsTable .tableHeadWrapper {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  padding: 8px 0;
+}
+
+.competitionResultsTable .tableHead {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+  padding: 2px 16px 2px 0;
+  margin: 0;
+}
+
+.competitionResultsTable .TableRow {
+  display: table-row;
+  min-width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.competitionResultsTable .TableRow .localIdRow {
+  min-width: 80px;
+  font-weight: 500;
+}
+
+.competitionResultsTable .TableRow .simpleRow {
+  flex: 1;
+  width: 250px;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+  padding: 8px 16px 8px 0;
+  word-break: break-all;
+}
+
+.competitionResultsTable .TableRow .userWinnerButton {
+  font-weight: 500;
+  font-size: 12px;
+  color: #007AFF;
+  letter-spacing: -0.16px;
+  text-align: center;
+  line-height: 16px;
+  padding: 6px 10px;
+  border: 1px solid #D6EAFF;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+.competitionResultsTable .TableRow .userWinnerButton:hover {
+  background: #007AFF;
+  border-color: #007AFF;
+  color: white;
+}
+
+.competitionResultsTable .TableRow:hover .userWinnerButton {
+  opacity: 100;
+}

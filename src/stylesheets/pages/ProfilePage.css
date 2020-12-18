@@ -1,0 +1,35 @@
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0 56px;
+}
+
+.profileHeader div.userpic {
+  width: 140px;
+  height: 140px;
+  border-radius: 140px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F6F6F6;
+  margin-bottom: 16px;
+}
+
+
+
+.inputHeading {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.18px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.profileFooter {
+  width: 100%;
+  max-width: 720px;
+  padding: 32px 0;
+  background: white
+}

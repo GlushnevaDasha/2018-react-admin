@@ -1,0 +1,72 @@
+.uploadPreview {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.uploadPreview > div {
+  max-width: calc(100% - 52px);
+}
+
+.uploadPreview img,
+.uploadPreview .fileWrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #EDEDED;
+  margin-right: 12px;
+}
+
+.uploadPreview img {
+  object-fit: cover;
+}
+
+.uploadPreview .fileWrapper {
+  background: #F6F6F6;
+  padding: 10px;
+}
+
+.uploadPreview .fileWrapper svg {
+  width: 17px;
+  height: 17px;
+  color: #C2C1C1;
+}
+
+.uploadPreview .name {
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 13px;
+  color: #000000;
+  line-height: 16px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.uploadPreview.buttons {
+  display: flex;
+}
+
+.uploadPreview.buttons .upload,
+.uploadPreview.buttons .delete p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.uploadPreview.buttons .upload:hover,
+.uploadPreview.buttons .delete p:hover {
+  text-decoration: none;
+}
+
+.uploadPreview.buttons .upload {
+  color: #007AFF;
+  margin-right: 8px;
+}
+
+.uploadPreview.buttons .delete p {
+  color: #E2503D;
+}

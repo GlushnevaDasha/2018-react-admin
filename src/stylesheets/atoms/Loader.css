@@ -1,0 +1,7 @@
+.loaderContainer {
+  width: 100px;
+  height: 100px;
+  margin: 16% auto;
+  background: white;
+  z-index: 1000;
+}

@@ -1,0 +1,81 @@
+.textEditor {
+  max-width: 720px;
+  margin: 64px auto 0;
+}
+
+.textEditor .prePublish > div {
+  margin-bottom: 48px;
+}
+
+.textEditor .prePublish h2 {
+  margin-bottom: 8px;
+}
+
+.textEditor .prePublish h2 + p {
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: -0.2px;
+  line-height: 22px;
+}
+
+.textEditor .prePublish h2 + p a {
+  color: #007AFF;
+  text-decoration: underline;
+}
+
+.textEditor .prePublish h4 {
+  margin-bottom: 4px;
+}
+
+.textEditor .prePublish h4 + p {
+  font-size: 14px;
+  color: #6D6D72;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.textEditor .buttonsBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 720px;
+  position: fixed;
+  bottom: 0;
+  background: rgba(255,255,255,.9);
+  padding: 12px 0;
+  z-index: 1000;
+}
+
+/* *********** */
+
+.textEditor .editorHeader {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  font-size: 36px;
+  color: #333333;
+  letter-spacing: -0.24px;
+  line-height: 40px;
+  white-space: normal;
+  outline: none;
+  outline-color: rgba(0, 0, 0, 0);
+  border: none;
+  resize: none;
+  overflow: none;
+  cursor: text;
+}
+
+.textEditor .editorContent {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: -0.21px;
+  line-height: 30px;
+  cursor: text;
+}
+
+.c-editor-container p {
+  min-height: 17px;
+}

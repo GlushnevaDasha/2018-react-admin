@@ -1,0 +1,74 @@
+.competitionInfoWrapper {
+  padding: 64px 0;
+}
+
+.competitionInfoWrapper h1 {
+  margin: 24px 0 8px;
+}
+
+.competitionInfoWrapper p {
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: -0.21px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+.competitionInfoWrapper .competitionParametrs {
+  display: flex;
+  max-width: 630px;
+  margin: 32px 0 48px 0;
+}
+
+.competitionInfoWrapper .competitionParametrs > div {
+  margin-right: 48px;
+}
+
+.competitionInfoWrapper .competitionParametrs span {
+  display: block;
+  font-size: 14px;
+  color: #6D6D72;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+.competitionInfoWrapper .competitionParametrs p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: -0.32px;
+  margin: 0;
+}
+
+.competitionInfoWrapper .competitionParametrs .competition_link {
+  font-size: 14px;
+  color: #007AFF;
+  letter-spacing: -0.22px;
+  line-height: 24px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.prizeListLarge {
+  padding: 20px 0 46px;
+}
+
+.prizeListLarge .prizeCard {
+  max-width: 230px;
+  padding: 0;
+  box-shadow: none;
+}
+
+.prizeListLarge .prizeCard > img {
+  width: 230px;
+  height: 230px;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+.prizeListLarge .prizeCard h3 {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  line-height: 22px;
+}

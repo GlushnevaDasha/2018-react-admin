@@ -1,0 +1,47 @@
+.conditionCardWrapper {
+  margin-bottom: 8px;
+}
+
+.conditionCard {
+  display: flex;
+  align-items: center;
+  background: #F5F6F6;
+  border-radius: 4px;
+  padding: 18px 24px 20px;
+  outline: none;
+}
+
+.conditionCard .info {
+  padding: 0 24px;
+  flex: 1;
+}
+
+.conditionCard .info span {
+  display: block;
+}
+
+.conditionCard .info span.title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+  margin-bottom: 2px;
+}
+
+.conditionCard .info span.description {
+  font-size: 14px;
+  color: #6D6D72;
+  letter-spacing: -0.08px;
+  line-height: 16px;
+}
+
+.conditionCard .menu {
+  opacity: 0;
+  cursor: pointer;
+  transition: all .1s ease-in;
+}
+
+.conditionCard:hover .menu {
+  opacity: 100;
+}

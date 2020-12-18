@@ -1,0 +1,32 @@
+.tableRow {
+
+}
+
+.tableRow > div {
+  display: flex;
+  align-items: center;
+}
+
+.tableRow div.secondary {
+  padding: 0 24px;
+}
+
+.tableRow div.secondary > * {
+  width: 100%;
+}
+
+.tableRow span {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableRow span.subLabel {
+  color: #6D6D72;
+  margin-top: 2px;
+}

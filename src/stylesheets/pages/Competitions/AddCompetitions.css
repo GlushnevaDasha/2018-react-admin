@@ -1,0 +1,33 @@
+.addCompetitionWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.addCompetitionWrapper .header {
+  padding: 96px 0 32px;
+}
+
+.addCompetitionWrapper .header h2 {
+  margin-bottom: 4px;
+}
+
+.addCompetitionWrapper .header p {
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  line-height: 22px;
+}
+
+.addCompetitionWrapper .formBlock {
+  padding: 32px 0;
+}
+
+.addCompetitionWrapper .formBlock .formBlockDescription {
+  font-size: 14px;
+  color: #6D6D72;
+  line-height: 20px;
+  margin: 4px 0 16px;
+}
+
+.addCompetitionWrapper .submitWrapper {
+  padding: 40px 0 56px;
+}

@@ -1,0 +1,28 @@
+span.label {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+
+span.label.dark {
+  color: #333333;
+  background: rgba(51, 51, 51, 0.1);
+}
+
+span.label.light {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+span.label.blue {
+  color: #007aff;
+  background: #eaf0fa;
+}
+
+span.label.red {
+  color: #e2503d;
+  background: #ffe6e2;
+}

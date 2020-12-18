@@ -1,0 +1,49 @@
+.CompetitionCard {
+  background: WHITE;
+  border-radius: 10px;
+  border: 1px solid #f4f4f4;
+  box-shadow: 0 2px 5px -2px rgba(0,0,0,.05);
+  transition: all 0.3s ease-in;
+}
+
+.CompetitionCard:hover {
+  box-shadow: 0 2px 16px -2px rgba(0, 0, 0, 0.1);
+}
+
+.CompetitionCard,
+.CompetitionCard * {
+  cursor: pointer;
+}
+
+.CompetitionCard > div {
+    padding: 32px;
+}
+
+.CompetitionCard .infoHead {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 16px;
+  font-size: 13px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.CompetitionCard h3 {
+  display: block;
+  max-height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.CompetitionCard .infoHead img {
+  margin: 0 8px;
+}
+
+.CompetitionCard .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}

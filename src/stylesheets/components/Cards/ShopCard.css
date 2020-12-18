@@ -1,0 +1,50 @@
+.shopCard {
+  /* max-width: 360px; */
+  border-radius: 9px;
+  background-image: radial-gradient(50% 100%, rgba(255,255,255,0.00) 0%, rgba(0,0,0,0.12) 100%);
+  padding: 32px;
+  cursor: pointer;
+}
+
+.shopCard .darkCard {
+  color: white;
+}
+
+.shopCard .lightCard {
+  color: black;
+}
+
+.shopCardInfo > img {
+  width: 130px !important;
+  height: 130px !important;
+  border-radius: 16px;
+  border: 4px solid white;
+  box-shadow: 0 12px 32px -5px rgba(0,0,0,0.20);
+}
+
+.shopCard .title {
+  height: 78px;
+  margin-bottom: 32px;
+}
+
+.shopCard .infoHead {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+
+  width: 100%;
+  min-height: 16px;
+  font-size: 13px;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.shopCard .infoHead img {
+  margin: 0 8px;
+}
+
+.shopCard .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
